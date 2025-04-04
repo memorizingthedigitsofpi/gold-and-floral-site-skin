@@ -269,6 +269,7 @@ form dt {
 .splash .favorite a,
 .splash .favorite li:nth-of-type(odd) a {
   background: linear-gradient(90deg, rgba(195,165,92,1) 0%, rgba(244,242,183,1) 50%, rgba(195,165,92,1) 100%);
+color: #161922 !important;
   border: 1px solid #161922;
 }
 
