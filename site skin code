@@ -344,6 +344,12 @@ dl.meta {
   background-repeat: no-repeat;
 }
 
+p.kudos {
+background: url("https://64.media.tumblr.com/cd35906053a720b24de6d14abd99e2db/785f1cd353c29718-20/s250x400/ebabad54a0fdac404ed88e051116e67d5efe8c94.png");
+background-repeat: no-repeat;
+background-size: 50px 50px;
+}
+
 #header h2,
 h2.collections {
   background: #53a9b6 !important;
