@@ -176,7 +176,8 @@ dd.hideme,
 form blockquote.userstuff,
 .draft,
 .draft .wrapper,
-.dynamic form {
+.dynamic form,
+.own {
   background: #161922;
   border: 2px solid #e2d795;
   box-shadow: none;
