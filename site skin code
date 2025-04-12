@@ -68,6 +68,29 @@ a.tag:hover {
   background: #e2d795;
 }
 
+.event .userstuff {
+  background: #c98cf4 !important;
+  border-color: #161922;
+  border-radius: 5px;
+  box-shadow: none !important;
+  color: #161922 !important;
+}
+
+.announcement .thermometer .track {
+  background: #161922;
+  border: 1px solid #c98cf4;
+  height: 1.25em;
+  background-image: linear-gradient(to bottom, rgba(195,165,92,1) 0%, rgba(244,242,183,1) 50%, rgba(195,165,92,1) 100%) !important;
+}
+
+div.progress {
+  background: linear-gradient(90deg,rgba(106, 76, 188, 1) 0%, rgba(145, 119, 217, 1) 49%) !important;
+}
+
+.announcement input[type="submit"] {
+  background: linear-gradient(90deg, rgba(195,165,92,1) 0%, rgba(244,242,183,1) 50%, rgba(195,165,92,1) 100%);
+}
+
 .notice,
 .comment_notice,
 .kudos_notice,
@@ -530,4 +553,16 @@ li.comment {
 
 .comment .posted {
   color: #000;
+}
+
+#modal .content {
+  border: 5px solid #c3a55c;
+  background: #161922;
+  color: #e2d795;
+}
+
+#modal {
+  border: none;
+  background: #161922;
+  color: #fdbb8b;
 }
