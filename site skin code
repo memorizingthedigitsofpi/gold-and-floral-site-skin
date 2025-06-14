@@ -566,3 +566,48 @@ li.comment {
   background: #161922;
   color: #fdbb8b;
 }
+
+
+#stat_chart svg {
+  filter: invert(85%) brightness(70%) hue-rotate(330deg) saturate(180%);
+}
+
+span.rating-general-audience.rating,
+span.category-gen.category,
+span.complete-yes.iswip {
+  filter: hue-rotate(350deg);
+}
+
+span.rating-teen.rating {
+  filter: invert(90%) hue-rotate(180deg) brightness(180%) contrast(120%);
+}
+
+span.category-slash.category {
+  filter: brightness(160%) hue-rotate(60deg);
+}
+
+span.category-het.category {
+  filter: brightness(150%) contrast(80%);
+}
+
+span.category-multi.category {
+  filter: brightness(120%) contrast(80%);
+}
+
+span.rating-mature.rating,
+span.warning-choosenotto.warnings {
+  filter: saturate(70%) contrast(120%);
+}
+
+span.rating-notrated.rating,
+span.category-none.category,
+span.warning-no.warnings {
+  filter: invert(100%);
+}
+
+span.rating-explicit.rating,
+span.category-femslash.category,
+span.warning-yes.warnings,
+span.complete-no.iswip {
+  filter: hue-rotate(35deg) brightness(130%) contrast(80%) saturate(140%);
+}
